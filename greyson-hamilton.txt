@@ -42,10 +42,10 @@
 	Within the <a> and after you have referenced what you are linking to, type 'target="_blank"'.
 
     14. What is the alt attribute in the image tag used for? 
-	The 'alt' attribute in the img tag is used to give a descriptive name of the image being displayed. For acsessabilty programs or in case the image fails to display.
+	The 'alt' attribute in the img tag is used to give a descriptive name of the image being displayed. For accessibility programs or in case the image fails to display.
 
     15. How do I reference an id?
-	An id is referenced in CSS with the hashtag before the id name.
+	An id is referenced in CSS with the hash-tag before the id name.
 
     16. What is the difference between a section and a div?
 	A section is less flexible than a div. A div is also supported by all versions of web browsers while section is not. While a section only denotes a section of the page, a div denotes a section or a division in the page. A section is also groups all the elements within that section.
@@ -69,7 +69,7 @@
 	A parent child selector is a way to select a specific element that is within the page. This would be useful when you want to isolate a single element within a section of the page, where there multiples of the same element. Being able to isolate that one element (child) allows you to add a style specifically to that one object.
 
     23. How do you select all links within a div with the class of sidebar?
-	We select this element by typle div a.sidebar {} within the <style> of the page.
+	We select this element by type div a.sidebar {} within the <style> of the page.
 
     24. What is a pseudo selector?
 	A pseudo selector will select only the specific requirement to style. It can be the first letter, the first-child, before, or after. To use a pseudo selector for an element type element-name::pseudo-selector. For a class, type .class-name:pseudo-selector.
@@ -102,7 +102,7 @@
 	The command to see a list of what is in the current directory type 'ls'.
 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-	To remove a file use the command 'rm' followed by the file name with the extension. You must be careful with this as the terminal will permantly delete whatever you tell it to with no way to recover it.
+	To remove a file use the command 'rm' followed by the file name with the extension. You must be careful with this as the terminal will permanently delete whatever you tell it to with no way to recover it.
 
     34. Why should I use version control? 
 	You should use version control so that multiple people can work on the same project at the same time without disturbing the original content. Using version control also allows you to keep track of all the changes that you have made to a project. This allows you to go back through, or someone else, to see what you have done in the previous incarnations of that project. This also enables you to be able to revert back to a previous version or just grab a particular code from a previous version.
@@ -115,10 +115,10 @@
 "git push -u origin" followed by the branch name of the repo you are working on.
 
     37. Walk me through Lambda's git flow. 
-	 To start a git flow, first you should find the project you are to be working on and then 'fork' it to your account in github. Once you have 'forked' a project make sure that the project name follows your name in the top left hand corner of the page. Then you will need to go into Settings and select Manage Access from the menu on the left. On the right hand side of the page there will be a button that says 'Invite a collaborator'. Click on the button and add your collaborators. After you have added your collaborators click on '<> Code' which should be the first menu item towards the top. Now, while you are still in the main branch, click on the green button 'Code' and copy that URL.
-	Now you need to access your terminal. Make sure that you have created a directory for your git repositories (mkdir 'directoryname'). Make sure you are in that directory (cd 'directoryname') and then type 'git clone url', remember you can only use Ctrl+C if you are using a iOS terminal, if you are using Git Bash in Windows use Shift+Instert. This should now have cloned the repository to your computer. Now you need to make a new branch for you to work in. Type in 'git checkout -b 'firstname-lastname'. Take a look to make sure, type 'git checkout branch'.
+	 To start a git flow, first you should find the project you are to be working on and then 'fork' it to your account in github. Once you have 'forked' a project make sure that the project name follows your name in the top left hand corner of the page. Then you will need to go into Settings and select Manage Access from the menu on the left. On the right hand side of the page there will be a button that says 'Invite a collaborator'. Click on the button and add your collaborators, this should be your TL. After you have added your collaborators click on '<> Code' which should be the first menu item towards the top. Now, while you are still in the main branch, click on the green button 'Code' and copy that URL.
+	Now you need to access your terminal. Make sure that you have created a directory for your git repositories (mkdir 'directoryname'). Make sure you are in that directory (cd 'directoryname') and then type 'git clone url', remember you can only use Ctrl+C if you are using a iOS terminal, if you are using Git Bash in Windows use Shift+Insert. This should now have cloned the repository to your computer. Now you need to make a new branch for you to work in. Type in 'git checkout -b 'firstname-lastname'. Take a look to make sure, type 'git checkout branch'.
 	While still in the terminal create a new file (touch 'filename.ext'), remember to put in the full filename including the extension. In order to edit the file from the terminal you must use the command code .. When you are done, add the file to the repository (git add 'filename.ext'). Now save your work, this is done by using the 'commit' command (git commit -m "Add your description here". Remember to always add a message so that you know what changes you have made, also so that somebody can come in behind you and know what you have done also.
-	Now you are ready to send your repo back to github for the first time. To do this we use the 'push' command (git push -u origin 'branchname'). Once this is successful, go back to github. Go back to the repo you were working on and click on the "main" button. A pull down menu will appear and you should now see your branch as one of the options. Select your branch. Now we need to click on "Pull Request", it should be under the green "Code" button. 
+	Now you are ready to send your repo back to github for the first time. To do this we use the 'push' command (git push -u origin 'branchname'). Once this is successful, go back to github. Go back to the repo you were working on and click on the "main" button. A pull down menu will appear and you should now see your branch as one of the options. Select your branch. Now we need to click on "Pull Request", it should be under the green "Code" button. On the next screen you will see a pull down menu that begins with "base repository". Click on that and select your branch. Now this will all change. On the right of your screen is a green button that shows "Create pull request". Click on this and leave a comment in the window. On the right you will see an option for 'Reviewers'. Click on the settings button for 'Reviewers' and add your collaborator as a reviewer. If you do not see your TL as a possible Reviewer contact them and ask them to accept your request for them to be a collaborator on your repo. Now click on "Create pull request". Congratulations, you have just succeeded in performing a git flow outlined by Lambda Schools.
 
 Stretch Questions
 
@@ -129,6 +129,6 @@ Stretch Questions
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
 
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
