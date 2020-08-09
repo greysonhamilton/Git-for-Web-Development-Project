@@ -1,0 +1,144 @@
+	Codepen assignment
+	https://codepen.io/greysonhamilton/full/NWNWeRE
+
+
+    1. What is Semantic HTML? 
+	Semantic HTML is the use of elements/tags that can be understood just by reading them. The element/tag is descriptive.
+
+    2. What is HTML used for? 
+	HTML is used as a mark-up language to communicate with the web browser and computer so that it is understood what is to be displayed within the viewing window.
+
+    3. What is an attribute and where do we put it? 
+	Attributes are used to add further information for an element. The attribute must be put within the tag with the element that it is to be associated with.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	The <h1> tag is used to label the main title of the page within the viewable page. It should only be used once.
+
+    5. Name two tags that have required attributes
+	Two tags that have required attributes are <a>, the anchor element, and <img>, the element to call an image.
+
+    6. What do we put in the head of our HTML document? 
+	We can put our website title in the head. This will not display in the viewing window but at the top of the web browser. We can also place meta tags, the style tag, and the script tag within the head.
+	
+    7. What is an id? 
+	An 'id' is an identifier for an element.
+
+    8. What elements can I add an id to? 
+	Any element within the <body> may have an id added to it.
+	
+    9. How many times can I use the same id on a page? 
+	You should only use the same id once on a page.
+
+    10. What is a class? 
+	A class is an attribute that is used to reference multiple elements.
+
+    11. What elements can I add a class to? 
+	Any element within the <body> may have a class added to it.
+
+    12. How many times can I use the same class on a page? 
+	You can use the same class as many times as you want on a page.
+
+    13. How do I get my link to open in a new tab?
+	Within the <a> and after you have referenced what you are linking to, type 'target="_blank"'.
+
+    14. What is the alt attribute in the image tag used for? 
+	The 'alt' attribute in the img tag is used to give a descriptive name of the image being displayed. For accessibility programs or in case the image fails to display.
+
+    15. How do I reference an id?
+	An id is referenced in CSS with the hash-tag before the id name.
+
+    16. What is the difference between a section and a div?
+	A section is less flexible than a div. A div is also supported by all versions of web browsers while section is not. While a section only denotes a section of the page, a div denotes a section or a division in the page. A section is also groups all the elements within that section.
+
+    17. What is CSS used for? 
+	CSS is used to tell the elements how to look and how they are displayed on the page.
+	
+    18. How to we select an element? Example - every h2 on the page
+	Within the <head> of the page we should have <style>. Within this element we would type in h2 {}. The styling attributes will be placed within the {}.
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	One class label can be used for multiple elements while an id can only be used for one.
+
+    20. How do we select classes in CSS?
+	We select a class within our <style> by putting a '.' before the name of the class. eg. .classname.
+
+    21. How do we select a p element with a single class of “human””?
+	We select this element by typing p.human within the <style> of the page.
+
+    22. What is a parent child selector? When would this be useful? 
+	A parent child selector is a way to select a specific element that is within the page. This would be useful when you want to isolate a single element within a section of the page, where there multiples of the same element. Being able to isolate that one element (child) allows you to add a style specifically to that one object.
+
+    23. How do you select all links within a div with the class of sidebar?
+	We select this element by type div a.sidebar {} within the <style> of the page.
+
+    24. What is a pseudo selector?
+	A pseudo selector will select only the specific requirement to style. It can be the first letter, the first-child, before, or after. To use a pseudo selector for an element type element-name::pseudo-selector. For a class, type .class-name:pseudo-selector.
+
+    25. What do we use the change the spacing between lines?
+	Add the property line-height to the appropriate selector within the <style> of the page.	
+
+    26. What do we use to change the spacing between letters?
+	Add the property letter-spacing to the appropriate selector within the <style> of the page.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	Add the property text-transform to the appropriate selector within the <style> of the page.
+
+    28. How do I add a 1px border around my div that is dotted and black?
+	Add the text below to the appropriate selector within the <style> of the page.
+		border-style: dotted;
+		border-width: 1px;
+		border-color: black;	
+
+    29. How do I select everything on the page? 
+	For this we add a universal selector at the very top of the <style> section of the page. The universal selector is '*'.
+
+    30. How do I write a comment in CSS?
+	To add a comment use '/*' at the beginning of the text and '*/' at the end, even if it is a multi-line comment.
+
+    31. How do I find out what file I am in, when I am using the command line? 
+	The command 'pwd' will inform you what directory you are in.
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	The command to see a list of what is in the current directory type 'ls'.
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	To remove a file use the command 'rm' followed by the file name with the extension. You must be careful with this as the terminal will permanently delete whatever you tell it to with no way to recover it.
+
+    34. Why should I use version control? 
+	You should use version control so that multiple people can work on the same project at the same time without disturbing the original content. Using version control also allows you to keep track of all the changes that you have made to a project. This allows you to go back through, or someone else, to see what you have done in the previous incarnations of that project. This also enables you to be able to revert back to a previous version or just grab a particular code from a previous version.
+
+    35. How often should I commit to github?
+	We should "commit" every time that we have made a change.
+
+    36. What is the command we would use to push our repo up to github? 
+	To "push" our repo to github for the first time we need to use the command
+"git push -u origin" followed by the branch name of the repo you are working on.
+
+    37. Walk me through Lambda's git flow. 
+	 To start a git flow, first you should find the project you are to be working on and then 'fork' it to your account in github. Once you have 'forked' a project make sure that the project name follows your name in the top left hand corner of the page. Then you will need to go into Settings and select Manage Access from the menu on the left. On the right hand side of the page there will be a button that says 'Invite a collaborator'. Click on the button and add your collaborators, this should be your TL. After you have added your collaborators click on '<> Code' which should be the first menu item towards the top. Now, while you are still in the main branch, click on the green button 'Code' and copy that URL.
+	Now you need to access your terminal. Make sure that you have created a directory for your git repositories (mkdir 'directoryname'). Make sure you are in that directory (cd 'directoryname') and then type 'git clone url', remember you can only use Ctrl+C if you are using a iOS terminal, if you are using Git Bash in Windows use Shift+Insert. This should now have cloned the repository to your computer. Now you need to make a new branch for you to work in. Type in 'git checkout -b 'firstname-lastname'. Take a look to make sure, type 'git checkout branch'.
+	While still in the terminal create a new file (touch 'filename.ext'), remember to put in the full filename including the extension. In order to edit the file from the terminal you must use the command code .. When you are done, add the file to the repository (git add 'filename.ext'). Now save your work, this is done by using the 'commit' command (git commit -m "Add your description here". Remember to always add a message so that you know what changes you have made, also so that somebody can come in behind you and know what you have done also.
+	Now you are ready to send your repo back to github for the first time. To do this we use the 'push' command (git push -u origin 'branchname'). Once this is successful, go back to github. Go back to the repo you were working on and click on the "main" button. A pull down menu will appear and you should now see your branch as one of the options. Select your branch. Now we need to click on "Pull Request", it should be under the green "Code" button. On the next screen you will see a pull down menu that begins with "base repository". Click on that and select your branch. Now this will all change. On the right of your screen is a green button that shows "Create pull request". Click on this and leave a comment in the window. On the right you will see an option for 'Reviewers'. Click on the settings button for 'Reviewers' and add your collaborator as a reviewer. If you do not see your TL as a possible Reviewer contact them and ask them to accept your request for them to be a collaborator on your repo. Now click on "Create pull request". Congratulations, you have just succeeded in performing a git flow outlined by Lambda Schools.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+	An inline element forces the element to display in a row, while a block element forces the element to display more like a column.
+
+    2. What happens when an element is positioned absolutely? 
+	An element that is placed "absolutely" will not follow the natural flow of the page, but will be placed within the element prior. It requires an anchor to set itself to.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	This can be achieved by using a flex-box. This can be attributed to the changing the display within the selector (display: flex;).
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	Three elements that are display block by default are:
+		<div>
+		<header>
+		<ul>
+	Two elements that are display inline by default are:
+		<img>
+		<script>
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+	A 'box model' helps to group the elements that are within the model. It creates a frame that makes it easier to conform a uniform margin for the entire page. Everything from the width, the border, margins, and padding. This creates a neat and uniform layout for the whole page. It also allows for the manipulation of the layout within the page through the primary use of the <div>. The "fix" for the box model is to use 'box-sizing: {border-box}. Then you can define your width for margins, padding, and borders within the selector for any element.
